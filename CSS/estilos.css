@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    min-height: 100%;
+}
+/* html */
+html{
+    height: 100%;
+}
+/* end html */
+
+
+/* header */
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    grid-area: header;
+    display: flex;
+    height: 75px;
+    background-color: burlywood;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+a div img{
+    height: 80px;
+}
+/* end header */
+
+
+/* main index */
+.grid-container > *{
+    border-radius: 4px;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:"header" "navbar" "main" "footer";
+}
+.slogan{
+    margin: 40px;
+    color: burlywood;
+    font-size: 42px;  
+}
+section{
+    display: inline-block;
+}
+article img{
+    height: 350px;
+}
+h2.pro{
+    margin: 100px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+}
+p{
+    color: white;
+    margin: 20px;
+    font-size: larger;
+    text-align: center;
+}
+h2.lema{
+    color: burlywood;
+    margin: 20px;
+
+}
+nav{
+    grid-area: navbar;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+}
+nav a:hover{
+    color:white
+
+}
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 5px solid white;
+    color: white;
+    background-color: burlywood;
+    margin-left: 100px;
+}
+button:hover{
+    background-color: black;
+}
+h3.ubicacion{
+    margin: 20px;
+    color: burlywood;
+    font-size: x-large;
+}
+/* end main index*/
+
+
+/* about us */
+.top__cards .historia{
+    color: white;
+    margin: 50px;
+}
+.escuela{
+    color: white;
+    margin: 10px;
+}
+.aspectos{
+    color: black;
+    font-size: 28px;
+    margin: 20px;
+    background-color: wheat;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.inspiracion{
+    color: white;
+    margin: 15px;
+}
+.insp{
+    width: 200px;
+    margin: 10px;
+    
+}
+.profesionalismo{
+    color: white;
+    margin: 15px;
+}
+.pro{
+    width: 200px;
+}
+.vanguardia{
+    color: white;
+    margin: 15px;
+}
+.van{
+    width: 200px;
+}
+/* end about us */
+
+
+/* products */
+.h3_productos{
+    font-size: 1.7 em;
+    color: wheat;
+}
+.h4_sealer{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: wheat;
+    border-radius: 60px;
+}
+.sealer .img_sealer{
+    width: 400px;
+    margin-top: 20px;
+}
+.h4_shampoo{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: wheat;
+    border-radius: 60px;
+}
+.shampoo .img_shampoo{
+    width: 400px;
+    margin-top: 20px;
+}
+.btn_sealer{
+    margin: 20px;
+}
+.btn_shampoo{
+    margin: 20px;
+}
+/* end products */
+
+
+/* cursos */
+
+section .cursos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+section h4{
+    color: wheat;
+}
+/* end cursos */
+
+
+/* contact */
+.contact_container{
+    padding: 100px;
+    margin: 100px;
+    border-radius: 100px;
+    background-color: rgb(51, 29, 8);
+}
+.contact{
+    margin-left: 25px;
+}
+.contacto{
+    color: white;
+    font-size: 26px;
+}
+label{
+    color: burlywood;
+    font-size: 22px;
+}
+input{
+    display: grid;
+    margin-left: 10em;
+  
+}
+select{
+    display: grid;
+    margin-left: 13em;  
+}
+textarea{
+    display: grid;
+    margin-left: 5.5em;
+}
+.consulta{
+ margin: 10px;
+ margin-left: 40px;
+}
+/* end contact */
+
+
+/* start footer */
+.pie-pagina{
+    width: 100%;
+    background-color: burlywood;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 20px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    margin: 20px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    line-height: 50px;    
+    margin-right: 10px;
+    background-color: wheat;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+     background-color: burlywood;
+     border-radius: 1000px;
+}
+.pie-pagina .grupo-2{
+    background-color: wheat;
+    padding: 5px 10px;
+    text-align: center;
+}
+/* end footer */
+
+/* media queries */
