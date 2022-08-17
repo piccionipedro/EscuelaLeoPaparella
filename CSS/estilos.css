@@ -94,7 +94,6 @@ button{
     border: 5px solid white;
     color: white;
     background-color: burlywood;
-    margin-left: 100px;
 }
 button:hover{
     background-color: black;
@@ -108,6 +107,18 @@ h3.ubicacion{
 
 
 /* about us */
+
+.cards_pilares{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cards_pilares img{
+    padding: 0;
+    margin: 0;
+    height: 250px;
+}
+
 .top__cards .historia{
     color: white;
     margin: 50px;
@@ -193,10 +204,46 @@ h3.ubicacion{
 
 section .cursos{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 section h4{
+    font-size: 25px;
     color: wheat;
+}
+.coming_soon{
+    display: grid;
+    margin-top: 250px;
+    color: white;
+}
+.img_estilista{
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 10px solid white;
+    color: white;
+    background-color: rgb(73, 179, 99);
+}
+.img_manicuria{
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 10px solid white;
+    color: white;
+    background-color: rgb(248, 196, 241);
+}
+.h4_barberia{
+    margin-top: 20px;
+}
+.img_barberia{
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 10px solid white;
+    color: white;
+    background-color: burlywood;
+}
+section .sec_estilista{
+    display: inline-block;
 }
 /* end cursos */
 
