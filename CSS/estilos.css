@@ -131,12 +131,11 @@ h3.ubicacion{
     display: inline-block;
     color: black;
     font-size: 2em;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    
+    margin-top: 50px;
+    margin-bottom: 20px; 
     background-color: wheat;
-    border-radius: 50px;
     text-align: center;
+    border: 5px solid white;
 
 }
 .inspiracion{
@@ -204,6 +203,18 @@ h3.ubicacion{
 
 
 /* cursos */
+
+.h2_cursos{
+    display: inline-block;
+    color: black;
+    font-size: 2em;
+    margin-top: 100px;
+    margin-bottom: 20px; 
+    background-color: wheat;
+    text-align: center;
+    border: 5px solid white;
+}
+
 
 section .cursos{
     display: grid;
