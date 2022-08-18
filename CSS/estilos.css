@@ -53,6 +53,7 @@ section{
     display: inline-block;
 }
 article img{
+    border-radius: 25px;
     margin: 50px;
     height: 350px;
 }
@@ -108,24 +109,29 @@ h3.ubicacion{
 
 /* about us */
 
+.top__cards .historia{
+    color: white;
+    margin: 25px;
+}
+.card-escuela{
+border-radius: 35px;
+}
+.escu_parrafo{
+    display: inline-block;
+    color: white;
+    margin: 10px;
+}
+
 .cards_pilares{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
 .cards_pilares img{
+    border-radius: 25px;
     padding: 0;
     margin: 0;
     height: 300px;
-}
-
-.top__cards .historia{
-    color: white;
-    margin: 50px;
-}
-.escuela{
-    color: white;
-    margin: 10px;
 }
 .aspectos{
     display: inline-block;
