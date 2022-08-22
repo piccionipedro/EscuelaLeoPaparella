@@ -1,0 +1,29 @@
+{
+  "name": "escuela-leo-paparella",
+  "version": "1.0.0",
+  "description": "Proyecto para coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-CSS": "node-sass --include-path scss scss/index.scss css/translated.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piccionipedro/EscuelaLeoPaparella.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "BOOTSTRAP",
+    "SASS"
+  ],
+  "author": "Piki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piccionipedro/EscuelaLeoPaparella/issues"
+  },
+  "homepage": "https://github.com/piccionipedro/EscuelaLeoPaparella#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
