@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../IMG/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../CSS/estilos.css">
     <title>Cursos</title>
 </head>
@@ -27,31 +28,41 @@
     <main class="container">
         <section class="cursos">
             <h2 class="h2_cursos">CURSOS DISPONIBLES</h2>
-            <ul class="cursos">
-                <li class="estilista">
-                    <h4 class="h4_estilista">ESTILISTA PROFESIONAL</h4>
-                    <img class = "img_estilista" src="../IMG/Estilista.png" alt="Estilista">
-                    <section class="sec_estilista">
-                        <p class="p_estilista">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam laudantium aperiam culpa odio ad veniam laboriosam voluptatibus cum vero? Molestiae?</p>
-                        <button class="btn_estilista">Anotate ahora!</button>
-                    </section>    
-                </li>
-                <li class="manicuria">
-                    <h4 class="h4_manicuria">MANICURÍA</h4>
-                    <img class="img_manicuria" src="../IMG/Manicura.png" alt="manicuria">
-                    <p class="p_manicuria">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, praesentium unde. A sit eum nesciunt tempore odio non impedit fugit.</p>
-                    <button class="btn_manicuria">Anotate ahora!</button>
-                </li>
-                <li class="barbebia">
-                    <h4 class="h4_barberia">BARBERÍA</h4>
-                    <img class="img_barberia" src="../IMG/Barbería.png" alt="barberia">
-                    <p class="p_barberia">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quia aliquam dolore sapiente deserunt sit quibusdam quasi necessitatibus autem! Adipisci!</p>
-                    <button class="btn_barbebia">Anotate ahora!</button>
-                </li>
-                <li class="coming_soon">
-                    <h2> ¡PROXIMOS CURSOS DISPONIBLES A PARTIR DE DICIEMBRE! </h2>
-                </li>
-            </ul>
+            <div class="row">
+                <ul class="cursos">
+                        <div class="col-md-3 d-flex m-2">
+                            <li class="estilista">
+                                <h4 class="h4_estilista">ESTILISTA PROFESIONAL</h4>
+                                <img class = "img_estilista" src="../IMG/Estilista.png" alt="Estilista">
+                                <section class="sec_estilista">
+                                    <p class="p_estilista">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam laudantium aperiam culpa odio ad veniam laboriosam voluptatibus cum vero? Molestiae?</p>
+                                    <button class="btn_estilista">Anotate ahora!</button>
+                                </section>    
+                            </li>
+                        </div>
+                        <div class="col-md-3 d-flex m-2">
+                            <li class="manicuria">
+                                <h4 class="h4_manicuria">MANICURÍA</h4>
+                                <img class="img_manicuria" src="../IMG/Manicura.png" alt="manicuria">
+                                <p class="p_manicuria">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, praesentium unde. A sit eum nesciunt tempore odio non impedit fugit.</p>
+                                <button class="btn_manicuria">Anotate ahora!</button>
+                            </li>
+                        </div>
+                        <div class="col-md-3 d-flex m-2" >
+                            <li class="barbebia">
+                                <h4 class="h4_barberia">BARBERÍA</h4>
+                                <img class="img_barberia" src="../IMG/Barbería.png" alt="barberia">
+                                <p class="p_barberia">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quia aliquam dolore sapiente deserunt sit quibusdam quasi necessitatibus autem! Adipisci!</p>
+                                <button class="btn_barbebia">Anotate ahora!</button>
+                            </li>
+                            <div class="col-md-3 d-flex m-2" >
+                                <li class="coming_soon">
+                                    <h2> ¡PROXIMOS CURSOS DISPONIBLES A PARTIR DE DICIEMBRE! </h2>
+                                </li>
+                            </div>
+                        </div>
+                </ul>
+            </div>
         </section>
     </main>
     <!-- Fin main -->
