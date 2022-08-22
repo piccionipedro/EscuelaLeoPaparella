@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../IMG/Logo.png" type="image/x-icon">
-    <!-- <link rel="stylesheet" href="../CSS/bootstrap.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../CSS/estilos.css">
     
     <title>Escuela Leo Paparella</title>
@@ -27,18 +27,26 @@
     <!--Fin header-->
     <!--Inicio Imágenes-->
     <main class="container">
-        <h2 class="slogan">HAZ DE TU PASIÓN UNA PROFESIÓN</h2>
-        <article id="presentacion">
-            <section class="imagen-peluqueria">
-                <img class="img-corte" src="../IMG/FondoPeluquería.jpg" alt="Imagen peluqueria">
-            </section>
-            <section class="profesional">
-                <h2 class="pro">Convertite en un excelente profesional</h2>
-                <a href="../html/cursos.html">
-                    <button class="aprende">¡Aprendé ya!</button>
-                </a>
-            </section>
-        </article>
+        <div class="col-md-12 d-flex justify-content-center">
+            <h2 class="slogan">HAZ DE TU PASIÓN UNA PROFESIÓN</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-8 p-6">
+                <article id="presentacion">
+                    <section class="imagen-peluqueria">
+                        <img class="img-corte" src="../IMG/FondoPeluquería.jpg" alt="Imagen peluqueria">
+                    </section>
+            </div>
+            <div class="col-md-2 d-flex justify-content-right">
+                <section class="profesional">
+                    <h2 class="pro">Convertite en un excelente profesional</h2>
+                    <a href="../html/cursos.html">
+                        <button class="aprende">¡Aprendé ya!</button>
+                    </a>
+                </section>
+            </div>
+            </article>
+        </div>    
         <!--Video-->
         <section class="video">
             <h2 class="lema">EXPERIENCIAS DE NUESTROS ALUMNOS</h2>
