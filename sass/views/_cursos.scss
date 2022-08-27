@@ -1,0 +1,57 @@
+
+/* cursos */
+.h2_cursos{
+    display: inline-block;
+    color: black;
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 20px; 
+    background-color: wheat;
+    text-align: center;
+    border: 5px solid white;
+}
+section .cursos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+section h4{
+    font-size: 25px;
+    color: wheat;
+}
+.coming_soon{
+    display: grid;
+    margin-top: 250px;
+    color: white;
+}
+.img_estilista{
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 3px solid white;
+    color: white;
+    background-color: rgb(73, 179, 99);
+}
+.img_manicuria{
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 3px solid white;
+    color: white;
+    background-color: rgb(248, 196, 241);
+}
+.h4_barberia{
+    margin-top: 20px;
+}
+.img_barberia{
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 3px solid white;
+    color: white;
+    background-color: burlywood;
+}
+section .sec_estilista{
+    display: inline-block;
+}
+ 
+/* end cursos */

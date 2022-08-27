@@ -157,42 +157,15 @@ h3.ubicacion {
 /* end about us */
 /* products */
 .h3_productos {
+  display: grid;
   color: black;
-  font-size: 2em;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  font-size: 1.5em;
+  margin: 30px;
   background-color: wheat;
   text-align: center;
   border: 5px solid white; }
 
-.h4_sealer {
-  color: black;
-  text-align: center;
-  font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: wheat;
-  border: 5px solid white; }
-
-.sealer .img_sealer {
-  width: 400px;
-  margin-top: 20px; }
-
-.h4_shampoo {
-  color: black;
-  text-align: center;
-  font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: wheat;
-  border: 5px solid white; }
-
-.shampoo .img_shampoo {
-  width: 400px;
-  margin-top: 20px; }
-
-.btn_sealer {
-  margin: 35px; }
-
-.btn_shampoo {
+.btn_compra {
   margin: 35px; }
 
 /* end products */

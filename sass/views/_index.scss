@@ -1,0 +1,69 @@
+/* main index */
+.grid-container > *{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:"header" "navbar" "main" "footer";
+}
+.slogan{
+    margin-top: 50px;
+    color: burlywood;
+    font-size: 42px;  
+}
+section{
+    display: inline-block;
+}
+article img{
+    border-radius: 25px;
+    margin: 50px;
+    height: 350px;
+}
+h2.pro{
+    margin: 100px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+p{
+    color: white;
+    margin: 20px;
+    font-size: larger;
+    text-align: center;
+}
+h2.lema{
+    color: burlywood;
+    margin: 20px;
+
+}
+nav{
+    grid-area: navbar;
+
+}
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+}
+nav a:hover{
+    color:white
+
+}
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 5px solid white;
+    color: white;
+    background-color: burlywood;
+}
+button:hover{
+    background-color: black;
+}
+h3.ubicacion{
+    margin: 20px;
+    color: burlywood;
+    font-size: x-large;
+}
+/* end main index*/

@@ -1,0 +1,41 @@
+/* contact */
+.contact_container{
+    padding: 100px;
+    margin: 100px;
+    border-radius: 100px;
+    background-color: rgb(51, 29, 8);
+}
+.contact{
+    margin-left: 25px;
+}
+.contacto{
+    color: white;
+    font-size: 26px;
+}
+label{
+    color: burlywood;
+    font-size: 22px;
+}
+input{
+    display: grid;
+    margin-left: 10em;
+  
+}
+select{
+    display: grid;
+    margin-left: 13em;  
+}
+textarea{
+    display: grid;
+    margin-left: 5.5em;
+}
+.consulta{
+    background-color: rgb(51, 29, 8);
+    margin: 10px;
+    margin-left: 30px;
+}
+.consulta:hover{
+    background-color: wheat;
+    color: black;
+}
+/* end contact */

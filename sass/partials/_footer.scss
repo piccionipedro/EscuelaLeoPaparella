@@ -1,0 +1,45 @@
+/* start footer */
+.pie-pagina{
+    width: 100%;
+    background-color: burlywood;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    padding: 1px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    margin: 5px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    margin-bottom: 25px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    height: 100px; 
+    background-color: wheat;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+     background-color: burlywood;
+     border-radius: 100px;
+}
+.pie-pagina .grupo-2{
+    background-color: wheat;
+    padding: 10px;
+    text-align: center;
+}
+/* end footer */
