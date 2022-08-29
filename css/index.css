@@ -179,6 +179,9 @@ h3.ubicacion {
   text-align: center;
   border: 5px solid white; }
 
+img {
+  border-radius: 20px; }
+
 .btn_compra {
   margin: 35px; }
 
