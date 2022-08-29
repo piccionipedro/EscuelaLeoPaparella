@@ -1,38 +1,43 @@
 /* contact */
 .contact_container{
-    padding: 100px;
-    margin: 100px;
-    border-radius: 100px;
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 30px;
     background-color: rgb(51, 29, 8);
-}
-.contact{
-    margin-left: 25px;
+    border: 5px solid burlywood;
+    width: 900px;
+
 }
 .contacto{
     color: white;
-    font-size: 26px;
+    font-size: 30px;
 }
-label{
+.nombre{
     color: burlywood;
-    font-size: 22px;
+    font-size: 20px;
 }
-input{
+.formulario{
+    text-align: center;
+}
+
+label, input, textarea, select{
+    padding: 5px;
+    margin: 10px;
+    color: burlywood;
+    outline: none;
     display: grid;
-    margin-left: 10em;
-  
+    font-size: 20px;
+    text-align: center;
+    width: 800px;
 }
-select{
-    display: grid;
-    margin-left: 13em;  
+option{
+    color: black;
 }
-textarea{
-    display: grid;
-    margin-left: 5.5em;
-}
+
 .consulta{
     background-color: rgb(51, 29, 8);
-    margin: 10px;
-    margin-left: 30px;
+    margin: 20px;
+    margin-left: 50px;
 }
 .consulta:hover{
     background-color: wheat;
