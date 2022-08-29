@@ -45,12 +45,14 @@ a div img {
   color: burlywood;
   font-size: 42px; }
 
-section {
-  display: inline-block; }
+.img_pro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
 
 article img {
   border-radius: 25px;
   margin: 50px;
+  margin-left: 150px;
   height: 350px; }
 
 h2.pro {
@@ -91,6 +93,9 @@ button {
 button:hover {
   background-color: black; }
 
+.aprende {
+  margin-right: 90px; }
+
 h3.ubicacion {
   margin: 20px;
   color: burlywood;
@@ -98,9 +103,18 @@ h3.ubicacion {
 
 /* end main index*/
 /* about us */
-.top__cards .historia {
-  color: white;
-  margin: 20px; }
+.historia {
+  display: grid;
+  color: black;
+  font-size: 2em;
+  background-color: wheat;
+  text-align: center;
+  border: 5px solid white;
+  margin: 30px; }
+
+.escuela_hist {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
 
 .card-escuela {
   border-radius: 35px;
@@ -110,27 +124,27 @@ h3.ubicacion {
   display: inline-block;
   color: white;
   margin: 10px; }
+  .escu_parrafo .escuela {
+    margin-top: 40px;
+    color: wheat;
+    font-size: 2.5em; }
+
+.aspectos {
+  display: grid;
+  color: black;
+  font-size: 2em;
+  margin: 30px;
+  background-color: wheat;
+  text-align: center;
+  border: 5px solid white; }
 
 .cards_pilares {
-  margin-left: 80px;
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
 
 .cards_pilares img {
   border-radius: 25px;
-  padding: 0;
-  margin: 0;
-  height: 280px; }
-
-.aspectos {
-  display: inline-block;
-  color: black;
-  font-size: 2em;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  background-color: wheat;
-  text-align: center;
-  border: 5px solid white; }
+  height: 300px; }
 
 .inspiracion {
   color: white;
@@ -159,7 +173,7 @@ h3.ubicacion {
 .h3_productos {
   display: grid;
   color: black;
-  font-size: 1.5em;
+  font-size: 2em;
   margin: 30px;
   background-color: wheat;
   text-align: center;
@@ -171,11 +185,10 @@ h3.ubicacion {
 /* end products */
 /* cursos */
 .h2_cursos {
-  display: inline-block;
+  display: grid;
   color: black;
   font-size: 2em;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin: 30px;
   background-color: wheat;
   text-align: center;
   border: 5px solid white; }
@@ -188,18 +201,13 @@ section h4 {
   font-size: 25px;
   color: wheat; }
 
-.coming_soon {
-  display: grid;
-  margin-top: 250px;
-  color: white; }
-
 .img_estilista {
   height: 450px;
   margin-top: 20px;
   border-radius: 50px;
   border: 3px solid white;
   color: white;
-  background-color: #49b363; }
+  background-color: rgba(112, 211, 120, 0.651); }
 
 .img_manicuria {
   height: 450px;
@@ -207,7 +215,7 @@ section h4 {
   border-radius: 50px;
   border: 3px solid white;
   color: white;
-  background-color: #f8c4f1; }
+  background-color: rgba(248, 196, 241, 0.699); }
 
 .h4_barberia {
   margin-top: 20px; }
@@ -218,46 +226,57 @@ section h4 {
   border-radius: 50px;
   border: 3px solid white;
   color: white;
-  background-color: burlywood; }
+  background-color: rgba(222, 184, 135, 0.74); }
 
-section .sec_estilista {
-  display: inline-block; }
+.img_color {
+  height: 450px;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: 3px solid white;
+  color: white;
+  background-color: rgba(134, 211, 255, 0.781); }
+
+ul {
+  margin-left: 50px; }
 
 /* end cursos */
 /* contact */
 .contact_container {
-  padding: 100px;
-  margin: 100px;
-  border-radius: 100px;
-  background-color: #331d08; }
-
-.contact {
-  margin-left: 25px; }
+  padding: 50px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #331d08;
+  border: 5px solid burlywood;
+  width: 900px; }
 
 .contacto {
   color: white;
-  font-size: 26px; }
+  font-size: 30px; }
 
-label {
+.nombre {
   color: burlywood;
-  font-size: 22px; }
+  font-size: 20px; }
 
-input {
-  display: grid;
-  margin-left: 10em; }
+.formulario {
+  text-align: center; }
 
-select {
+label, input, textarea, select {
+  padding: 5px;
+  margin: 10px;
+  color: burlywood;
+  outline: none;
   display: grid;
-  margin-left: 13em; }
+  font-size: 20px;
+  text-align: center;
+  width: 800px; }
 
-textarea {
-  display: grid;
-  margin-left: 5.5em; }
+option {
+  color: black; }
 
 .consulta {
   background-color: #331d08;
-  margin: 10px;
-  margin-left: 30px; }
+  margin: 20px;
+  margin-left: 50px; }
 
 .consulta:hover {
   background-color: wheat;

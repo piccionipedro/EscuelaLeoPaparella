@@ -12,12 +12,14 @@
     color: burlywood;
     font-size: 42px;  
 }
-section{
-    display: inline-block;
+.img_pro{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 article img{
     border-radius: 25px;
     margin: 50px;
+    margin-left: 150px;
     height: 350px;
 }
 h2.pro{
@@ -60,6 +62,9 @@ button{
 }
 button:hover{
     background-color: black;
+}
+.aprende{
+    margin-right: 90px;
 }
 h3.ubicacion{
     margin: 20px;

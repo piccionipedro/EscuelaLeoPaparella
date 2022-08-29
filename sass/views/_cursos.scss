@@ -1,11 +1,10 @@
 
 /* cursos */
 .h2_cursos{
-    display: inline-block;
+    display: grid;
     color: black;
     font-size: 2em;
-    margin-top: 50px;
-    margin-bottom: 20px; 
+    margin: 30px;
     background-color: wheat;
     text-align: center;
     border: 5px solid white;
@@ -18,18 +17,13 @@ section h4{
     font-size: 25px;
     color: wheat;
 }
-.coming_soon{
-    display: grid;
-    margin-top: 250px;
-    color: white;
-}
 .img_estilista{
     height: 450px;
     margin-top: 20px;
     border-radius: 50px;
     border: 3px solid white;
     color: white;
-    background-color: rgb(73, 179, 99);
+    background-color:  rgba(112, 211, 120, 0.651);
 }
 .img_manicuria{
     height: 450px;
@@ -37,7 +31,7 @@ section h4{
     border-radius: 50px;
     border: 3px solid white;
     color: white;
-    background-color: rgb(248, 196, 241);
+    background-color: rgba(248, 196, 241, 0.699);
 }
 .h4_barberia{
     margin-top: 20px;
@@ -48,10 +42,18 @@ section h4{
     border-radius: 50px;
     border: 3px solid white;
     color: white;
-    background-color: burlywood;
+    background-color: rgba(222, 184, 135, 0.74);
 }
-section .sec_estilista{
-    display: inline-block;
+.img_color{
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 3px solid white;
+    color: white;
+    background-color: rgba(134, 211, 255, 0.781);
+}
+ul{
+    margin-left: 50px;
 }
  
 /* end cursos */
