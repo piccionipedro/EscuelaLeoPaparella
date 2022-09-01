@@ -34,10 +34,17 @@ option{
     color: black;
 }
 
+@mixin consult {
+    height: auto;
+    width: auto;
+    
+}
+
 .consulta{
     background-color: rgb(51, 29, 8);
     margin: 20px;
     margin-left: 50px;
+    @include consult();
 }
 .consulta:hover{
     background-color: wheat;

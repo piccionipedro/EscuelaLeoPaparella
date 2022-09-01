@@ -17,39 +17,32 @@ section h4{
     font-size: 25px;
     color: wheat;
 }
-.img_estilista{
+
+.colorfondo{
     height: 450px;
     margin-top: 20px;
     border-radius: 50px;
     border: 3px solid white;
     color: white;
+}
+
+.img_estilista{
+    @extend .colorfondo;
     background-color:  rgba(112, 211, 120, 0.651);
 }
 .img_manicuria{
-    height: 450px;
-    margin-top: 20px;
-    border-radius: 50px;
-    border: 3px solid white;
-    color: white;
+    @extend .colorfondo;
     background-color: rgba(248, 196, 241, 0.699);
 }
 .h4_barberia{
     margin-top: 20px;
 }
 .img_barberia{
-    height: 450px;
-    margin-top: 20px;
-    border-radius: 50px;
-    border: 3px solid white;
-    color: white;
+    @extend .colorfondo;
     background-color: rgba(222, 184, 135, 0.74);
 }
 .img_color{
-    height: 450px;
-    margin-top: 20px;
-    border-radius: 50px;
-    border: 3px solid white;
-    color: white;
+    @extend .colorfondo;
     background-color: rgba(134, 211, 255, 0.781);
 }
 ul{
