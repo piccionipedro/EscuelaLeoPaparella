@@ -126,10 +126,11 @@ h3.ubicacion {
   display: inline-block;
   color: white;
   margin: 10px; }
-  .escu_parrafo .escuela {
-    margin-top: 40px;
-    color: wheat;
-    font-size: 2.5em; }
+
+.escuela {
+  margin-top: 40px;
+  color: wheat;
+  font-size: 2.5em; }
 
 .aspectos {
   display: grid;
@@ -328,5 +329,88 @@ option {
     background-color: burlywood; }
   header {
     background-color: white; }
+  h3 {
+    color: black; }
+  a:hover {
+    background-color: burlywood; }
+  /* index */
+  .slogan {
+    color: black; }
+  h2.lema {
+    color: black; }
+  h3.ubicacion {
+    color: black; }
+  .img_pro {
+    display: block;
+    margin: 0; }
+  .img-corte {
+    margin: 0;
+    margin-top: 40px;
+    height: 280px; }
+  .profesional {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0; }
+  .aprende {
+    margin: 0; }
+  /* fin index */
+  /* about us */
+  .escuela_hist {
+    display: flex;
+    flex-direction: column; }
+  .escu_parrafo {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    margin: 10px; }
+  .escuela {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 2em; }
+  section.cards_pilares {
+    display: flex;
+    flex-direction: column; }
+  h3.inspiracion {
+    color: black; }
+  h3.profesionalismo {
+    color: black; }
+  h3.vanguardia {
+    color: black; }
+  /* fin about us */
+  /* productos */
+  .prod {
+    color: black; }
+  /* fin productos */
+  /* cursos */
+  section .cursos {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0; }
+  section h4 {
+    color: black;
+    font-size: 1.75em;
+    font-weight: bold; }
+  /* fin cursos */
+  /* contacto */
+  .contact_container {
+    padding: 35px;
+    margin: 0 0;
+    border: 5px solid white;
+    width: auto;
+    background-color: rgba(222, 184, 135, 0.685); }
+  label, input, textarea, select {
+    padding: 5px;
+    margin: 0px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 625px; }
+  /* fin contacto */
+  /* footer */
   .pie-pagina .grupo-1 {
     background-color: white; } }
